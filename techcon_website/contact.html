@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact TechCon 2024</title>
 </head>
 <body>
-    
-
-        <header>
-<h1>Contact Us</h1>
+    <header>
+        <h1>Contact Us</h1>
     </header>
 
     <nav>
@@ -21,34 +19,66 @@
         </ul>
     </nav>
 
-     <form action="#" method="POST">
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>Have questions about TechCon 2024? We'd love to hear from you!</p>
+            
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:info@techcon2024.com" target="_blank">info@techcon2024.com</a></p>
+            <p>Phone: +1 (555) 123-TECH</p>
+            <p>Address: San Francisco Convention Center</p>
+            
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="mailto:speakers@techcon2024.com" target="_blank">Speaker Inquiries</a></li>
+                <li><a href="mailto:sponsors@techcon2024.com" target="_blank">Sponsorship Opportunities</a></li>
+                <li><a href="mailto:press@techcon2024.com" target="_blank">Press & Media</a></li>
+            </ul>
+        </section>
 
-<footer>
-  <p>&copy; 2025 My Mumbo's Conference . All rights reserved. <br>
-  Copyright © 2025</p>
-</footer>
+        <section>
+            <h2>Location Map</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.434716905773!2d-122.4014326846822!3d37.78417997975838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807d10c1fb6d%3A0x6f6b51f241f0c0e2!2sSan%20Francisco%20Convention%20Center!5e0!3m2!1sen!2sus!4v1645567890123!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
 
+        <section>
+            <h2>Contact Form</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechCon Conference. All rights reserved.</p>
+    </footer>
 </body>
 </html>
